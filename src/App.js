@@ -14,31 +14,32 @@ function App() {
 
 
   useEffect(() => {
-    axios.get('http://localhost:3000/users/bmw-mercedes-income')
+    // https://sore-tan-lemming-boot.cyclic.app/
+    axios.get('https://sore-tan-lemming-boot.cyclic.app/users/bmw-mercedes-income')
       .then(response => {
         setBmwMercedesIncome(response.data);
       })
       .catch(error => console.log(error));
 
-    axios.get('http://localhost:3000/users/male-expensive-phone')
+    axios.get('https://sore-tan-lemming-boot.cyclic.app/users/male-expensive-phone')
       .then(response => {
         setMaleExpensivePhone(response.data);
       })
       .catch(error => console.log(error));
 
-    axios.get('http://localhost:3000/users/long-quote-email')
+    axios.get('https://sore-tan-lemming-boot.cyclic.app/users/long-quote-email')
       .then(response => {
         setLongQuoteEmail(response.data);
       })
       .catch(error => console.log(error));
 
-    axios.get('http://localhost:3000/users/german-car-no-digit-email')
+    axios.get('https://sore-tan-lemming-boot.cyclic.app/german-car-no-digit-email')
       .then(response => {
         setGermanCarNoDigitEmail(response.data);
       })
       .catch(error => console.log(error));
 
-    axios.get('http://localhost:3000/users/top-cities')
+    axios.get('https://sore-tan-lemming-boot.cyclic.app/users/top-cities')
       .then(response => {
         setTopCities(response.data);
       })
