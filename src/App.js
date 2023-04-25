@@ -2,7 +2,7 @@
 import './App.css';
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import {Route,Router,BrowserRouter,Routes,useNavigate} from "react-router-dom"
+import {Route,BrowserRouter,Routes} from "react-router-dom"
 import Home from './Home';
  
 function App() {
